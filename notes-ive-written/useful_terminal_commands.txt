@@ -1,0 +1,74 @@
+"echo $PATH"
+
+Displays path
+
+"sudo nano /etc/paths"
+
+Enter password and then it will display list of paths you can add too
+
+"nano .zshrc" while in home dir opens the .zshrc file from which you can add to path by adding in the below line which declares the new location /Users/yourusername/bin as well as prefixing the original path declared as $PATH.
+
+export PATH=$PATH:/Users/yourusername/bin
+
+(explained in more detail below)
+
+
+///
+
+Adding in a Permanent Location
+
+To make the new path stick permanently you need to add or edit a .zshrc file in your home directory and add to the path there.
+
+This configuration file controls various Terminal environment preferences including the path.
+
+In macOS Big Sur and Catalina the default shell is Zsh aka the Z Shell (previously it was the Bash Shell).
+
+cd
+
+This command moves you into home directory, if you are already in the home directory then you are in the right spot. Check you have a .zshrc file by running the ls -la command which shows the directory files.
+
+If you don’t have it, create it and edit it with a command line editor called nano:
+
+touch .zshrc
+nano .zshrc
+If you do have it just edit it:
+
+nano .zshrc
+export PATH=$PATH:/Users/yourusername/bin
+
+Add in the above line which declares the new location /Users/yourusername/bin as well as prefixing the original path declared as $PATH.
+
+Macos Bigsur Add Path Zsh Shell
+
+ 
+
+ 
+
+Also if you have an existing .zshrc file it may have these lines in it:
+
+# If you come from bash you might have to change your $PATH.
+# export PATH=$HOME/bin:/usr/local/bin:$PATH
+Just uncomment the second line
+
+# If you come from bash you might have to change your $PATH.
+ export PATH=$HOME/bin:/usr/local/bin:$PATH
+Add in any extra paths colon separating them with no trailing slash
+
+ 
+
+Saving the Edits in Nano
+Save the file in nano by clicking ‘control’ +’o’ and confirming the name of the file is .zsh by hitting return. And the ‘control’+’x’ to exit nano.
+
+Either refresh the .zshrc file by using source or restart the Terminal:
+
+source .zshrc
+So now when the Terminal is relaunched or a new window made and you check the the path by
+
+echo $PATH
+You will get the new path at the front followed by the default path locations, all the time
+
+/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin/Users/yourusername/bin
+Rearranging the default $PATH
+If you needed to rearrange the paths in the default $PATH variable, you can just do that and leave off $PATH.
+
+So lets say you want /usr/local/bin at the beginning to take precedence you can add the default path like so inside .zsh
