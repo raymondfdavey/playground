@@ -1,0 +1,18 @@
+
+AT TOP OF FILE PUT ->
+#! /bin/bash 
+
+THEN MAKE IT EXECUTABLE -> 
+chmod +x nameofscript
+
+FOR SOME MAC OS COMMANDS FOR EXAMPLE DIALOG BOXES YOU NEED SPECIAL MAC OS COMAND ->
+osascript -e 'display dialog "Hello from bash!"'
+
+WHICH WILL RUN FROM THE COMMAND LINE. HOWEVE IF YOU WANT TO WRITE A SCRIPT AND WANT THE DISPLAY DIALOGUE COMMAND TO WORK YOU EITHER HAVE TO USE THAT SPECIAL OSA COMMAND OR WRITE IT IN THE SCRIPT EDITOR (JUST USE FINDER SCRIPT EDITOR) OR USE THE .applescript EXTENSION IN VS CODE -> 
+
+display dialog "Are you sure!?" buttons {"No", "Yes"}   // WILL NOT WORK
+osascript -e 'display dialog "Are you sure!?" buttons {"No", "Yes"}'       // WILL WORK
+
+OR IF IN A .applecript FILE ->
+
+display dialog "Are you sure!?" buttons {"No", "Yes"}        // WILL WORK
