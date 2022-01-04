@@ -1,0 +1,326 @@
+[INFO  - 2020-06-20T18:34:31.534Z] GhostDriver - Main - running on port 64937
+[INFO  - 2020-06-20T18:34:31.898Z] Session [aeabf140-b324-11ea-aa31-4f9eab801ad0] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2020-06-20T18:34:31.898Z] Session [aeabf140-b324-11ea-aa31-4f9eab801ad0] - page.customHeaders:  - {}
+[INFO  - 2020-06-20T18:34:31.898Z] Session [aeabf140-b324-11ea-aa31-4f9eab801ad0] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"mac-unknown-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2020-06-20T18:34:31.898Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: aeabf140-b324-11ea-aa31-4f9eab801ad0
+[ERROR - 2020-06-20T18:34:34.985Z] Session [aeabf140-b324-11ea-aa31-4f9eab801ad0] - page.onError - msg: TypeError: undefined is not an object (evaluating 'i.call')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-06-20T18:34:34.986Z] Session [aeabf140-b324-11ea-aa31-4f9eab801ad0] - page.onError - stack:
+  (anonymous function) (https://groceries.asda.com/browse_app_assets/js/bundle.vendor.22f67605a726ba767ffb.js:25)
+  forEach (:0)
+  (anonymous function) (https://groceries.asda.com/browse_app_assets/js/bundle.vendor.22f67605a726ba767ffb.js:25)
+  forEach (:0)
+  value (https://groceries.asda.com/browse_app_assets/js/bundle.vendor.22f67605a726ba767ffb.js:25)
+  (anonymous function) (:0)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-06-20T18:34:35.030Z] Session [aeabf140-b324-11ea-aa31-4f9eab801ad0] - page.onError - msg: TypeError: undefined is not an object (evaluating 'i.call')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-06-20T18:34:35.030Z] Session [aeabf140-b324-11ea-aa31-4f9eab801ad0] - page.onError - stack:
+  (anonymous function) (https://groceries.asda.com/browse_app_assets/js/bundle.vendor.22f67605a726ba767ffb.js:25)
+  forEach (:0)
+  (anonymous function) (https://groceries.asda.com/browse_app_assets/js/bundle.vendor.22f67605a726ba767ffb.js:25)
+  forEach (:0)
+  value (https://groceries.asda.com/browse_app_assets/js/bundle.vendor.22f67605a726ba767ffb.js:25)
+  (anonymous function) (:0)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-06-20T18:34:35.269Z] Session [aeabf140-b324-11ea-aa31-4f9eab801ad0] - page.onError - msg: TypeError: undefined is not an object (evaluating 'i.call')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-06-20T18:34:35.269Z] Session [aeabf140-b324-11ea-aa31-4f9eab801ad0] - page.onError - stack:
+  (anonymous function) (https://groceries.asda.com/browse_app_assets/js/bundle.vendor.22f67605a726ba767ffb.js:25)
+  forEach (:0)
+  (anonymous function) (https://groceries.asda.com/browse_app_assets/js/bundle.vendor.22f67605a726ba767ffb.js:25)
+  forEach (:0)
+  value (https://groceries.asda.com/browse_app_assets/js/bundle.vendor.22f67605a726ba767ffb.js:25)
+  (anonymous function) (:0)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-06-20T18:34:35.460Z] Session [aeabf140-b324-11ea-aa31-4f9eab801ad0] - page.onError - msg: TypeError: undefined is not an object (evaluating 'i.call')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-06-20T18:34:35.460Z] Session [aeabf140-b324-11ea-aa31-4f9eab801ad0] - page.onError - stack:
+  (anonymous function) (https://groceries.asda.com/browse_app_assets/js/bundle.vendor.22f67605a726ba767ffb.js:25)
+  forEach (:0)
+  (anonymous function) (https://groceries.asda.com/browse_app_assets/js/bundle.vendor.22f67605a726ba767ffb.js:25)
+  forEach (:0)
+  value (https://groceries.asda.com/browse_app_assets/js/bundle.vendor.22f67605a726ba767ffb.js:25)
+  (anonymous function) (:0)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-06-20T18:34:35.676Z] Session [aeabf140-b324-11ea-aa31-4f9eab801ad0] - page.onError - msg: TypeError: undefined is not an object (evaluating 'i.call')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-06-20T18:34:35.677Z] Session [aeabf140-b324-11ea-aa31-4f9eab801ad0] - page.onError - stack:
+  (anonymous function) (https://groceries.asda.com/browse_app_assets/js/bundle.vendor.22f67605a726ba767ffb.js:25)
+  forEach (:0)
+  (anonymous function) (https://groceries.asda.com/browse_app_assets/js/bundle.vendor.22f67605a726ba767ffb.js:25)
+  forEach (:0)
+  value (https://groceries.asda.com/browse_app_assets/js/bundle.vendor.22f67605a726ba767ffb.js:25)
+  (anonymous function) (:0)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-06-20T18:34:35.699Z] Session [aeabf140-b324-11ea-aa31-4f9eab801ad0] - page.onError - msg: TypeError: undefined is not an object (evaluating 'i.call')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-06-20T18:34:35.699Z] Session [aeabf140-b324-11ea-aa31-4f9eab801ad0] - page.onError - stack:
+  (anonymous function) (https://groceries.asda.com/browse_app_assets/js/bundle.vendor.22f67605a726ba767ffb.js:25)
+  forEach (:0)
+  (anonymous function) (https://groceries.asda.com/browse_app_assets/js/bundle.vendor.22f67605a726ba767ffb.js:25)
+  forEach (:0)
+  value (https://groceries.asda.com/browse_app_assets/js/bundle.vendor.22f67605a726ba767ffb.js:25)
+  (anonymous function) (:0)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-06-20T18:34:35.802Z] Session [aeabf140-b324-11ea-aa31-4f9eab801ad0] - page.onError - msg: TypeError: undefined is not an object (evaluating 'i.call')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-06-20T18:34:35.803Z] Session [aeabf140-b324-11ea-aa31-4f9eab801ad0] - page.onError - stack:
+  (anonymous function) (https://groceries.asda.com/browse_app_assets/js/bundle.vendor.22f67605a726ba767ffb.js:25)
+  forEach (:0)
+  (anonymous function) (https://groceries.asda.com/browse_app_assets/js/bundle.vendor.22f67605a726ba767ffb.js:25)
+  forEach (:0)
+  value (https://groceries.asda.com/browse_app_assets/js/bundle.vendor.22f67605a726ba767ffb.js:25)
+  (anonymous function) (:0)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-06-20T18:34:36.100Z] Session [aeabf140-b324-11ea-aa31-4f9eab801ad0] - page.onError - msg: TypeError: undefined is not an object (evaluating 'i.call')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-06-20T18:34:36.100Z] Session [aeabf140-b324-11ea-aa31-4f9eab801ad0] - page.onError - stack:
+  (anonymous function) (https://groceries.asda.com/browse_app_assets/js/bundle.vendor.22f67605a726ba767ffb.js:25)
+  forEach (:0)
+  (anonymous function) (https://groceries.asda.com/browse_app_assets/js/bundle.vendor.22f67605a726ba767ffb.js:25)
+  forEach (:0)
+  value (https://groceries.asda.com/browse_app_assets/js/bundle.vendor.22f67605a726ba767ffb.js:25)
+  (anonymous function) (:0)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-06-20T18:34:36.126Z] Session [aeabf140-b324-11ea-aa31-4f9eab801ad0] - page.onError - msg: NotSupportedError: DOM Exception 9: The implementation did not support the requested type of object or operation.
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-06-20T18:34:36.127Z] Session [aeabf140-b324-11ea-aa31-4f9eab801ad0] - page.onError - stack:
+  createContextualFragment (https://cdn.cookielaw.org/consent/e1a8b4a2-c1e9-45c9-a58d-ba4dd0578b24.js:244)
+  u (https://cdn.cookielaw.org/consent/e1a8b4a2-c1e9-45c9-a58d-ba4dd0578b24.js:244)
+  (anonymous function) (https://cdn.cookielaw.org/consent/e1a8b4a2-c1e9-45c9-a58d-ba4dd0578b24.js:263)
+  forEach (:0)
+  value (https://cdn.cookielaw.org/consent/e1a8b4a2-c1e9-45c9-a58d-ba4dd0578b24.js:263)
+  Ba (https://cdn.cookielaw.org/consent/e1a8b4a2-c1e9-45c9-a58d-ba4dd0578b24.js:14)
+  cb (https://cdn.cookielaw.org/consent/e1a8b4a2-c1e9-45c9-a58d-ba4dd0578b24.js:10)
+  (anonymous function) (https://cdn.cookielaw.org/consent/e1a8b4a2-c1e9-45c9-a58d-ba4dd0578b24.js:253)
+  dispatchEvent (:0)
+  value (https://cdn.cookielaw.org/consent/e1a8b4a2-c1e9-45c9-a58d-ba4dd0578b24.js:253)
+  LoadBanner (https://cdn.cookielaw.org/consent/e1a8b4a2-c1e9-45c9-a58d-ba4dd0578b24.js:232)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-06-20T18:34:36.416Z] Session [aeabf140-b324-11ea-aa31-4f9eab801ad0] - page.onError - msg: TypeError: undefined is not an object (evaluating 'i.call')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-06-20T18:34:36.416Z] Session [aeabf140-b324-11ea-aa31-4f9eab801ad0] - page.onError - stack:
+  (anonymous function) (https://groceries.asda.com/browse_app_assets/js/bundle.vendor.22f67605a726ba767ffb.js:25)
+  forEach (:0)
+  (anonymous function) (https://groceries.asda.com/browse_app_assets/js/bundle.vendor.22f67605a726ba767ffb.js:25)
+  forEach (:0)
+  value (https://groceries.asda.com/browse_app_assets/js/bundle.vendor.22f67605a726ba767ffb.js:25)
+  (anonymous function) (:0)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-06-20T18:34:36.682Z] Session [aeabf140-b324-11ea-aa31-4f9eab801ad0] - page.onError - msg: TypeError: undefined is not an object (evaluating 'i.call')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-06-20T18:34:36.682Z] Session [aeabf140-b324-11ea-aa31-4f9eab801ad0] - page.onError - stack:
+  (anonymous function) (https://groceries.asda.com/browse_app_assets/js/bundle.vendor.22f67605a726ba767ffb.js:25)
+  forEach (:0)
+  (anonymous function) (https://groceries.asda.com/browse_app_assets/js/bundle.vendor.22f67605a726ba767ffb.js:25)
+  forEach (:0)
+  value (https://groceries.asda.com/browse_app_assets/js/bundle.vendor.22f67605a726ba767ffb.js:25)
+  (anonymous function) (:0)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-06-20T18:34:37.036Z] Session [aeabf140-b324-11ea-aa31-4f9eab801ad0] - page.onError - msg: TypeError: undefined is not an object (evaluating 'i.call')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-06-20T18:34:37.036Z] Session [aeabf140-b324-11ea-aa31-4f9eab801ad0] - page.onError - stack:
+  (anonymous function) (https://groceries.asda.com/browse_app_assets/js/bundle.vendor.22f67605a726ba767ffb.js:25)
+  forEach (:0)
+  (anonymous function) (https://groceries.asda.com/browse_app_assets/js/bundle.vendor.22f67605a726ba767ffb.js:25)
+  forEach (:0)
+  value (https://groceries.asda.com/browse_app_assets/js/bundle.vendor.22f67605a726ba767ffb.js:25)
+  (anonymous function) (:0)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-06-20T18:34:37.084Z] Session [aeabf140-b324-11ea-aa31-4f9eab801ad0] - page.onError - msg: TypeError: undefined is not an object (evaluating 'i.call')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-06-20T18:34:37.084Z] Session [aeabf140-b324-11ea-aa31-4f9eab801ad0] - page.onError - stack:
+  (anonymous function) (https://groceries.asda.com/browse_app_assets/js/bundle.vendor.22f67605a726ba767ffb.js:25)
+  forEach (:0)
+  (anonymous function) (https://groceries.asda.com/browse_app_assets/js/bundle.vendor.22f67605a726ba767ffb.js:25)
+  forEach (:0)
+  value (https://groceries.asda.com/browse_app_assets/js/bundle.vendor.22f67605a726ba767ffb.js:25)
+  (anonymous function) (:0)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-06-20T18:34:37.361Z] Session [aeabf140-b324-11ea-aa31-4f9eab801ad0] - page.onError - msg: TypeError: undefined is not an object (evaluating 'i.call')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-06-20T18:34:37.361Z] Session [aeabf140-b324-11ea-aa31-4f9eab801ad0] - page.onError - stack:
+  (anonymous function) (https://groceries.asda.com/browse_app_assets/js/bundle.vendor.22f67605a726ba767ffb.js:25)
+  forEach (:0)
+  (anonymous function) (https://groceries.asda.com/browse_app_assets/js/bundle.vendor.22f67605a726ba767ffb.js:25)
+  forEach (:0)
+  value (https://groceries.asda.com/browse_app_assets/js/bundle.vendor.22f67605a726ba767ffb.js:25)
+  (anonymous function) (:0)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-06-20T18:34:37.443Z] Session [aeabf140-b324-11ea-aa31-4f9eab801ad0] - page.onError - msg: TypeError: undefined is not an object (evaluating 'i.call')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-06-20T18:34:37.443Z] Session [aeabf140-b324-11ea-aa31-4f9eab801ad0] - page.onError - stack:
+  (anonymous function) (https://groceries.asda.com/browse_app_assets/js/bundle.vendor.22f67605a726ba767ffb.js:25)
+  forEach (:0)
+  (anonymous function) (https://groceries.asda.com/browse_app_assets/js/bundle.vendor.22f67605a726ba767ffb.js:25)
+  forEach (:0)
+  value (https://groceries.asda.com/browse_app_assets/js/bundle.vendor.22f67605a726ba767ffb.js:25)
+  (anonymous function) (:0)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-06-20T18:34:37.496Z] Session [aeabf140-b324-11ea-aa31-4f9eab801ad0] - page.onError - msg: TypeError: undefined is not an object (evaluating 'i.call')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-06-20T18:34:37.496Z] Session [aeabf140-b324-11ea-aa31-4f9eab801ad0] - page.onError - stack:
+  (anonymous function) (https://groceries.asda.com/browse_app_assets/js/bundle.vendor.22f67605a726ba767ffb.js:25)
+  forEach (:0)
+  (anonymous function) (https://groceries.asda.com/browse_app_assets/js/bundle.vendor.22f67605a726ba767ffb.js:25)
+  forEach (:0)
+  value (https://groceries.asda.com/browse_app_assets/js/bundle.vendor.22f67605a726ba767ffb.js:25)
+  (anonymous function) (:0)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-06-20T18:34:37.883Z] Session [aeabf140-b324-11ea-aa31-4f9eab801ad0] - page.onError - msg: No P13N page type mapping defined for page.
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-06-20T18:34:37.883Z] Session [aeabf140-b324-11ea-aa31-4f9eab801ad0] - page.onError - stack:
+  log (https://groceries.asda.com/browse_app_assets/js/bundle.app.602b1f5ab2c75dc56c50.js:1)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-06-20T18:34:37.884Z] Session [aeabf140-b324-11ea-aa31-4f9eab801ad0] - page.onError - msg: No P13N page type mapping defined for page.
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-06-20T18:34:37.884Z] Session [aeabf140-b324-11ea-aa31-4f9eab801ad0] - page.onError - stack:
+  log (https://groceries.asda.com/browse_app_assets/js/bundle.app.602b1f5ab2c75dc56c50.js:1)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-06-20T18:34:38.725Z] Session [aeabf140-b324-11ea-aa31-4f9eab801ad0] - page.onError - msg: TypeError: undefined is not an object (evaluating 'i.call')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-06-20T18:34:38.725Z] Session [aeabf140-b324-11ea-aa31-4f9eab801ad0] - page.onError - stack:
+  (anonymous function) (https://groceries.asda.com/browse_app_assets/js/bundle.vendor.22f67605a726ba767ffb.js:25)
+  forEach (:0)
+  (anonymous function) (https://groceries.asda.com/browse_app_assets/js/bundle.vendor.22f67605a726ba767ffb.js:25)
+  forEach (:0)
+  value (https://groceries.asda.com/browse_app_assets/js/bundle.vendor.22f67605a726ba767ffb.js:25)
+  (anonymous function) (:0)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-06-20T18:34:39.611Z] Session [aeabf140-b324-11ea-aa31-4f9eab801ad0] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'bt_data('eventid').indexOf("103")')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-06-20T18:34:39.611Z] Session [aeabf140-b324-11ea-aa31-4f9eab801ad0] - page.onError - stack:
+  anonymous (undefined:1)
+  (anonymous function) (https://s.btstatic.com/tag.js#site=eI7jAuz:43)
+  trigger (https://s.btstatic.com/tag.js#site=eI7jAuz:44)
+  (anonymous function) (https://s.btstatic.com/tag.js#site=eI7jAuz:45)
+  forEach (:0)
+  r (https://s.btstatic.com/tag.js#site=eI7jAuz:3)
+  c (https://s.btstatic.com/tag.js#site=eI7jAuz:45)
+  f (https://s.btstatic.com/tag.js#site=eI7jAuz:45)
+  g (https://s.btstatic.com/tag.js#site=eI7jAuz:44)
+  dispatch (https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js:3)
+  handle (https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js:3)
+  dispatchEvent (:0)
+  (anonymous function) (https://groceries.asda.com/browse_app_assets/js/bundle.app.602b1f5ab2c75dc56c50.js:1)
+  (anonymous function) (https://groceries.asda.com/browse_app_assets/js/bundle.vendor.22f67605a726ba767ffb.js:70)
+  dispatch (https://groceries.asda.com/browse_app_assets/js/bundle.vendor.22f67605a726ba767ffb.js:1)
+  P (https://groceries.asda.com/browse_app_assets/js/bundle.app.602b1f5ab2c75dc56c50.js:1)
+  (anonymous function) (https://groceries.asda.com/browse_app_assets/js/bundle.app.602b1f5ab2c75dc56c50.js:1)
+  a (https://groceries.asda.com/browse_app_assets/js/bundle.vendor.22f67605a726ba767ffb.js:25)
+  (anonymous function) (https://groceries.asda.com/browse_app_assets/js/bundle.vendor.22f67605a726ba767ffb.js:25)
+  s (https://groceries.asda.com/browse_app_assets/js/bundle.vendor.22f67605a726ba767ffb.js:55)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-06-20T18:34:39.663Z] Session [aeabf140-b324-11ea-aa31-4f9eab801ad0] - page.onError - msg: TypeError: undefined is not an object (evaluating 'i.call')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-06-20T18:34:39.663Z] Session [aeabf140-b324-11ea-aa31-4f9eab801ad0] - page.onError - stack:
+  (anonymous function) (https://groceries.asda.com/browse_app_assets/js/bundle.vendor.22f67605a726ba767ffb.js:25)
+  forEach (:0)
+  (anonymous function) (https://groceries.asda.com/browse_app_assets/js/bundle.vendor.22f67605a726ba767ffb.js:25)
+  forEach (:0)
+  value (https://groceries.asda.com/browse_app_assets/js/bundle.vendor.22f67605a726ba767ffb.js:25)
+  (anonymous function) (:0)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-06-20T18:34:39.793Z] Session [aeabf140-b324-11ea-aa31-4f9eab801ad0] - page.onError - msg: TypeError: undefined is not an object (evaluating 'i.call')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-06-20T18:34:39.793Z] Session [aeabf140-b324-11ea-aa31-4f9eab801ad0] - page.onError - stack:
+  (anonymous function) (https://groceries.asda.com/browse_app_assets/js/bundle.vendor.22f67605a726ba767ffb.js:25)
+  forEach (:0)
+  (anonymous function) (https://groceries.asda.com/browse_app_assets/js/bundle.vendor.22f67605a726ba767ffb.js:25)
+  forEach (:0)
+  value (https://groceries.asda.com/browse_app_assets/js/bundle.vendor.22f67605a726ba767ffb.js:25)
+  (anonymous function) (:0)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-06-20T18:34:39.820Z] Session [aeabf140-b324-11ea-aa31-4f9eab801ad0] - page.onError - msg: TypeError: undefined is not an object (evaluating 'i.call')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-06-20T18:34:39.824Z] Session [aeabf140-b324-11ea-aa31-4f9eab801ad0] - page.onError - stack:
+  (anonymous function) (https://groceries.asda.com/browse_app_assets/js/bundle.vendor.22f67605a726ba767ffb.js:25)
+  forEach (:0)
+  (anonymous function) (https://groceries.asda.com/browse_app_assets/js/bundle.vendor.22f67605a726ba767ffb.js:25)
+  forEach (:0)
+  value (https://groceries.asda.com/browse_app_assets/js/bundle.vendor.22f67605a726ba767ffb.js:25)
+  (anonymous function) (:0)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-06-20T18:34:40.313Z] Session [aeabf140-b324-11ea-aa31-4f9eab801ad0] - page.onError - msg: TypeError: undefined is not an object (evaluating 'i.call')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-06-20T18:34:40.313Z] Session [aeabf140-b324-11ea-aa31-4f9eab801ad0] - page.onError - stack:
+  (anonymous function) (https://groceries.asda.com/browse_app_assets/js/bundle.vendor.22f67605a726ba767ffb.js:25)
+  forEach (:0)
+  (anonymous function) (https://groceries.asda.com/browse_app_assets/js/bundle.vendor.22f67605a726ba767ffb.js:25)
+  forEach (:0)
+  value (https://groceries.asda.com/browse_app_assets/js/bundle.vendor.22f67605a726ba767ffb.js:25)
+  (anonymous function) (:0)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-06-20T18:34:40.802Z] Session [aeabf140-b324-11ea-aa31-4f9eab801ad0] - page.onError - msg: TypeError: undefined is not an object (evaluating 'i.call')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-06-20T18:34:40.802Z] Session [aeabf140-b324-11ea-aa31-4f9eab801ad0] - page.onError - stack:
+  (anonymous function) (https://groceries.asda.com/browse_app_assets/js/bundle.vendor.22f67605a726ba767ffb.js:25)
+  forEach (:0)
+  (anonymous function) (https://groceries.asda.com/browse_app_assets/js/bundle.vendor.22f67605a726ba767ffb.js:25)
+  forEach (:0)
+  value (https://groceries.asda.com/browse_app_assets/js/bundle.vendor.22f67605a726ba767ffb.js:25)
+  (anonymous function) (:0)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-06-20T18:34:41.386Z] Session [aeabf140-b324-11ea-aa31-4f9eab801ad0] - page.onError - msg: TypeError: undefined is not an object (evaluating 'i.call')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-06-20T18:34:41.386Z] Session [aeabf140-b324-11ea-aa31-4f9eab801ad0] - page.onError - stack:
+  (anonymous function) (https://groceries.asda.com/browse_app_assets/js/bundle.vendor.22f67605a726ba767ffb.js:25)
+  forEach (:0)
+  (anonymous function) (https://groceries.asda.com/browse_app_assets/js/bundle.vendor.22f67605a726ba767ffb.js:25)
+  forEach (:0)
+  value (https://groceries.asda.com/browse_app_assets/js/bundle.vendor.22f67605a726ba767ffb.js:25)
+  (anonymous function) (:0)
+
+  phantomjs://platform/console++.js:263 in error
