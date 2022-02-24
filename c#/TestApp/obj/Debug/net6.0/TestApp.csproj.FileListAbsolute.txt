@@ -1,0 +1,15 @@
+/Users/rfd/Desktop/CURRENT/playground-for-trying-code/c#/TestApp/bin/Debug/net6.0/TestApp
+/Users/rfd/Desktop/CURRENT/playground-for-trying-code/c#/TestApp/bin/Debug/net6.0/TestApp.deps.json
+/Users/rfd/Desktop/CURRENT/playground-for-trying-code/c#/TestApp/bin/Debug/net6.0/TestApp.runtimeconfig.json
+/Users/rfd/Desktop/CURRENT/playground-for-trying-code/c#/TestApp/bin/Debug/net6.0/TestApp.dll
+/Users/rfd/Desktop/CURRENT/playground-for-trying-code/c#/TestApp/bin/Debug/net6.0/TestApp.pdb
+/Users/rfd/Desktop/CURRENT/playground-for-trying-code/c#/TestApp/obj/Debug/net6.0/TestApp.csproj.AssemblyReference.cache
+/Users/rfd/Desktop/CURRENT/playground-for-trying-code/c#/TestApp/obj/Debug/net6.0/TestApp.GeneratedMSBuildEditorConfig.editorconfig
+/Users/rfd/Desktop/CURRENT/playground-for-trying-code/c#/TestApp/obj/Debug/net6.0/TestApp.AssemblyInfoInputs.cache
+/Users/rfd/Desktop/CURRENT/playground-for-trying-code/c#/TestApp/obj/Debug/net6.0/TestApp.AssemblyInfo.cs
+/Users/rfd/Desktop/CURRENT/playground-for-trying-code/c#/TestApp/obj/Debug/net6.0/TestApp.csproj.CoreCompileInputs.cache
+/Users/rfd/Desktop/CURRENT/playground-for-trying-code/c#/TestApp/obj/Debug/net6.0/TestApp.dll
+/Users/rfd/Desktop/CURRENT/playground-for-trying-code/c#/TestApp/obj/Debug/net6.0/refint/TestApp.dll
+/Users/rfd/Desktop/CURRENT/playground-for-trying-code/c#/TestApp/obj/Debug/net6.0/TestApp.pdb
+/Users/rfd/Desktop/CURRENT/playground-for-trying-code/c#/TestApp/obj/Debug/net6.0/TestApp.genruntimeconfig.cache
+/Users/rfd/Desktop/CURRENT/playground-for-trying-code/c#/TestApp/obj/Debug/net6.0/ref/TestApp.dll
