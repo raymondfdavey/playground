@@ -186,3 +186,5 @@ newMaze.solveCompletedMaze((6, 1))
 # during solving it should print where it is after each move
 # It should then have a "resolve" method with a new start position that see the players just go direct to solve 
 # Fore each step should create an "above, below, left right" value tuple and if more than one is 1....
+
+# TESTY TEST
