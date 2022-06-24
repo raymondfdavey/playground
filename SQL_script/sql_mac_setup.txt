@@ -1,0 +1,107 @@
+# PSQL Install instructions
+
+## Mac
+
+- Install Postgres App https://postgresapp.com/
+  - Open the app (little blue elephant) and select initialize/start
+- type `psql` into your terminal. You should then see something similar to:
+
+```psql
+psql (9.6.5, server 9.6.6)
+Type "help" for help.
+
+username=#
+```
+
+- if the above does not show/you get an error, run the following commands in your terminal:
+  - `brew update`
+  - `brew doctor`
+  - `brew install postgresql`
+
+## Ubuntu
+
+- Run this command in your terminal:
+  `sudo apt-get update`
+
+  `sudo apt-get install postgresql postgresql-contrib`
+
+- Next run the following commands to create a database user for Postgres.
+
+  `sudo -u postgres createuser --superuser $USER`
+
+  `sudo -u postgres createdb $USER`
+
+- Then run this command to enter the terminal application for PostgreSQL:
+
+  `psql`
+
+- Now type:
+
+  `ALTER USER username WITH PASSWORD 'mysecretword123';`
+
+  **BUT** Instead of `username` type your Ubuntu username and instead of `'mysecretword123'` choose your own password and be sure to wrap it in quotation marks. Use a simple password like 'password'. **DONT USE YOUR LOGIN PASSWORD** !
+
+- You can then exit out of psql by typing `\q`
+
+### PSQL
+
+> "psql is a terminal-based front-end to PostgreSQL".
+
+`psql` connects to the postgres server on your computer - which runs on port 5432 by default.
+
+Similar to running a file using node, you can run SQL files with `psql`
+
+- `psql -f filename`
+- `psql -f filename -o another_filename` will print the output of running a file into another file e.g. output.txt
+
+You can also interact with the postgres database management system
+
+- `psql -l` this will list all the databases stored and managed by `postgres`
+
+### PSQL terminal
+
+When you are in your main `bash` terminal, running the command `psql` will open the `psql` client terminal.
+
+If you are using the `psql` terminal (you will be able to tell as there is a `#` and username on the left side of the terminal) you can to use pure `SQL` commands and `postgres` management commands specified below (plus many more!).
+
+- `\l` - list all the databases managed by `postgres` on your computer
+- `\c database_name` - connect to a specific database
+- `\dt` - display all tables in a database (provided you are connected to one)
+- `\d table_name` - display more information about a specific table in a database
+- `\dn` - list all schema in a database
+- `\q` - exit the `psql` terminal and go back to bash: Alternatively `ctrl d` will do this too
+
+- If you are in the command line `psql -d database_name` will open the `psql` terminal _and_ automatically connect you to the specified database.
+
+## simple sql commands
+
+- `CREATE DATABASE db_name;` <-- Pay attention to the `;`
+- `DROP DATABASE db_name;`
+
+# Tasks:
+
+1. open the `psql` client terminal
+2. create a database called 'my_first_database'
+   - If it succeeds you should see `CREATE DATABASE` printed
+3. connect to this database
+   - If it succeeds you should see `You are now connected to database "my_first_database"...`
+4. exit the `psql` client terminal
+5. re-enter the `psql` terminal
+6. delete your database
+7. exit back out of the `psql` terminal
+
+## You should now start your SQL tutorial (https://sqlbolt.com/) completing stages 1-6 and 13-18
+
+_If you finish the tutorial here are a few extra tasks to work on_
+
+8. Make a `seed.sql` file and place the following code inside
+
+```
+\! echo "successfully run!"
+```
+
+9. Run your `seed.sql` file
+
+   - if successful you will see the above "successfully run!" in the terminal
+
+10. Replace the above code in your file with the commands to create a database and connect to it _HINT_ you can use `\` psql commands inside of `sql` files.

@@ -3,7 +3,16 @@ from matplotlib import colors
 import numpy as np
 import random
 
-maze1 = np.array([[0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0],[0, 0, 1, 1, 1, 1, 1, 0, 0, 1, 0],[0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0],[0, 1, 1, 1, 1, 1, 0, 1, 1, 1, 0],[0, 0, 0, 0, 0, 1, 0, 1, 0, 1, 0],[0, 0, 0, 1, 1, 1, 1, 1, 0, 1, 0],[0, 1, 1, 1, 0, 0, 0, 1, 0, 1, 0],[0, 0, 0, 1, 0, 0, 0, 1, 0, 1, 0],[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]])
+maze1 = np.array([
+[0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0],
+[0, 0, 1, 1, 1, 1, 1, 0, 0, 1, 0],
+[0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0],
+[0, 1, 1, 1, 1, 1, 0, 1, 1, 1, 0],
+[0, 0, 0, 0, 0, 1, 0, 1, 0, 1, 0],
+[0, 0, 0, 1, 1, 1, 1, 1, 0, 1, 0],
+[0, 1, 1, 1, 0, 0, 0, 1, 0, 1, 0],
+[ 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, 0],
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]])
 
 class ShannonsMaze:
     def __init__(self, maze, startPosition, endPosition):
@@ -188,3 +197,6 @@ newMaze.solveCompletedMaze((6, 1))
 # Fore each step should create an "above, below, left right" value tuple and if more than one is 1....
 
 # TESTY TEST
+
+# algorithm incriments spaces visited by 1 and then always goes to the square with the lowest difference between current square and one its visiting.add()
+# if space is already a 3 chnage it to 4
